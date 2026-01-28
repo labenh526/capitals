@@ -124,7 +124,7 @@ def runNames(): Unit =
             input.split(" ").toList match
                 case List(number, position) if Try((number.toInt, Position.valueOf(position.toUpperCase))).isSuccess =>
                     val correct = player.number == number.toInt && player.pos == Position.valueOf(position.toUpperCase)
-                    println(if correct then "Correct!\n" else s"Incorrect. Corrrect answer for ${player.name} is ${player.number} ${player.pos}")
+                    println(if correct then "Correct!\n" else s"Incorrect. Corrrect answer for ${player.name} is ${player.number} ${player.pos}\n")
                     runNamesGivenPlayer(pullRandom)
                 case _ =>
                     println("Invalid formatting. Input should be of format {number} {position(C/W/D/G)}")
