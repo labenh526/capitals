@@ -20,7 +20,7 @@ val players = Set(
     Player("Declan Chisholm", D, 47),
     Player("Jakob Chychrun", D, 6),
     Player("Martin Fehervary", D, 42),
-    Player("Dylan McIllwrath", D, 52),
+    Player("Dylan McIlrath", D, 52),
     Player("Matt Roy", D, 3),
     Player("Rasmus Sandin", D, 38),
     Player("Trevor van Riemsdyk", D, 57),
